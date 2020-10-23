@@ -1,0 +1,19 @@
+[
+  {
+    "id": "/subscriptions/39c73552-4c48-4251-aea4-d911a8cc5c5a/resourceGroups/API/providers/Microsoft.Resources/deployments/Microsoft.ContainerInstances-20201023155149/operations/4DBAC5DE5178066C",
+    "operationId": "4DBAC5DE5178066C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2020-10-23T20:58:37.2135033Z",
+      "duration": "PT34.8785635S",
+      "trackingId": "8f804729-53c0-47e4-a506-0118c4b0ab64",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/39c73552-4c48-4251-aea4-d911a8cc5c5a/resourceGroups/API/providers/Microsoft.ContainerInstance/containerGroups/api",
+        "resourceType": "Microsoft.ContainerInstance/containerGroups",
+        "resourceName": "api"
+      }
+    }
+  }
+]
