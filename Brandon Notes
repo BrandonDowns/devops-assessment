@@ -1,0 +1,40 @@
+These are my raw notes I took as I went along.  They provide a reasonable facsimile of my thinking:
+
+
+Create Dockerfile
+build container
+push to dockerhub
+create files do deploy API (any language)
+-to Azure
+
+
+
+Looking through code. Looks like a simple python hello world API to return a success message.
+-gives a json response
+
+Plan is to deploy to Azure 
+
+First, I will build a container and push to dockerhub
+Second, I manually deploy to Azure
+Third, I will write Powershell to automate a deploy of the API to Azure 
+
+IDE: intelliJ
+(installed the missing Python packages)
+
+
+https://cloudskills.io/blog/python-container
+I can't get the container to succesfully import the python modules after 30 minutes, so I'm moving on. I assume it's a Docker for Windows thing.
+
+
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr
+pushed my container to dockerhub (brandonmdowns/api)
+
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-deploy-app
+
+Installed Azure CLI
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart
+
+Tested deployment command (it's one line)
+
+at 110 minutes, not enough time to mess with the .json templates, but the deploy command uses Azure to get a perfectly reasonable container setup automatically.
+If we wanted to deploy multiple, we'd simply change the name.
